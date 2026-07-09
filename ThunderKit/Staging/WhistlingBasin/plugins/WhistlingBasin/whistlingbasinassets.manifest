@@ -1,0 +1,66 @@
+ManifestFileVersion: 0
+CRC: 4011447280
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5cc9cf00ff27318ba4499693efe3ecc4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3976e5f3365b9c8973e95a3885c420f9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 2014855634, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -104859921, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -609359282, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -794597441, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: RoR2
+  ClassName: RoR2.AssetReferenceScene
+- AssemblyName: RoR2
+  ClassName: RoR2.DccsPool/Category
+- AssemblyName: RoR2
+  ClassName: RoR2.DccsPool/PoolEntry
+- AssemblyName: Unity.Addressables
+  ClassName: UnityEngine.AddressableAssets.AssetReferenceGameObject
+- AssemblyName: Unity.Addressables
+  ClassName: UnityEngine.AddressableAssets.AssetReferenceT`1[UnityEngine.Material]
+- AssemblyName: Unity.Addressables
+  ClassName: UnityEngine.AddressableAssets.AssetReferenceTexture
+Assets:
+- Assets/WhistlingBasin/Assets/Materials/WBasinTerrain.mat
+- Assets/WhistlingBasin/Assets/Info/dccspoolBlunderMonsters.asset
+- Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGTriplanarTerrainBlend.shader
+- Assets/WhistlingBasin/Assets/Meshes/Terrain.blend
+- Assets/WhistlingBasin/Assets/Textures/texFSLichen3.png
+- Assets/WhistlingBasin/Assets/Info/whistlingbasin.asset
+- Assets/WhistlingBasin/Assets/Textures/WBasinMoss.tga
+- Assets/WhistlingBasin/Assets/Info/dccspoolBlunderInteractables.asset
+- Assets/WhistlingBasin/Assets/Info/dccsBlunderInteractables.asset
+- Assets/WhistlingBasin/Assets/Textures/WBasinSandstone.tga
+- Assets/WhistlingBasin/Assets/Textures/WBasinMoss2.tga
+- Assets/WhistlingBasin/Assets/Info/AirNodes.asset
+- Assets/WhistlingBasin/Assets/Info/dccsBlunderMonsters.asset
+- Assets/WhistlingBasin/Assets/Info/GroundNodes.asset
+Dependencies: []

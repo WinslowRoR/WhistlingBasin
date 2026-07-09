@@ -1,0 +1,11 @@
+ManifestFileVersion: 0
+CRC: 2286466748
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: whistlingbasinassets
+      Dependencies: {}
+    Info_1:
+      Name: whistlingbasinscene
+      Dependencies:
+        Dependency_0: whistlingbasinassets
