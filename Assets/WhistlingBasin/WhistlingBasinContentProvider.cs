@@ -18,8 +18,8 @@ namespace whistlingbasin
         public static ReadOnlyContentPack readOnlyContentPack => new ReadOnlyContentPack(WhistlingBasinContentPack);
         internal static ContentPack WhistlingBasinContentPack { get; } = new ContentPack();
 
-        internal const string ScenesAssetBundleFileName = "whistlingbasinassets";
-        internal const string AssetsAssetBundleFileName = "whistlingbasinscene";
+        internal const string ScenesAssetBundleFileName = "whistlingbasinscene";
+        internal const string AssetsAssetBundleFileName = "whistlingbasinassets";
 
         internal const string MusicSoundBankFileName = "WhistlingBasinMusic.bnk";
         internal const string InitSoundBankFileName = "WhistlingBasinInit.bnk";

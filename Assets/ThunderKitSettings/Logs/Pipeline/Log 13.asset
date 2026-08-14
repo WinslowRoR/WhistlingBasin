@@ -16,6 +16,83 @@ MonoBehaviour:
   creationDate:
     ticks: 639191953694349885
   entries:
+  - logLevel: 3
+    internalTime:
+      ticks: 639191953873727950
+    message: '[Pipeline](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset) Finished
+      execution'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639191953873537535
+    message: '[Pipeline(4 - Copy)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)
+      ``` <ManifestPluginStaging> ``` to ``` <DeploymentFolder> ```
+
+      
+
+      Copied
+      ``` ThunderKit/Staging/WhistlingBasin/plugins/WhistlingBasin ``` to ``` C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin
+      ```'
+    context:
+    - "Copied Files\r\n\r\n 1. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\CHANGELOG.md\r\n\r\n
+      2. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\icon.png\r\n\r\n
+      3. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\manifest.json\r\n\r\n
+      4. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\README.md\r\n\r\n
+      5. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\WhistlingBasin.dll\r\n\r\n
+      6. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\WhistlingBasin.manifest\r\n\r\n
+      7. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\whistlingbasinassets\r\n\r\n
+      8. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\whistlingbasinassets.manifest\r\n\r\n
+      9. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\whistlingbasinscene\r\n\r\n
+      10. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\whistlingbasinscene.manifest"
+  - logLevel: 3
+    internalTime:
+      ticks: 639191953873094533
+    message: '[Pipeline(4 - Copy)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639191953872884158
+    message: '[Pipeline(3 - StageThunderstoreManifest)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[WhistlingBasinManifest](assetlink://Assets%2fWhistlingBasin%2fWhistlingBasinManifest.asset)
+      Creating Thunderstore manifest.json'
+    context:
+    - "Manifest.json\r\n```js\r\n{\n    \"name\": \"WhistlingBasin\",\n    \"author\":
+      \"Winslow\",\n    \"version_number\": \"1.0.0\",\n    \"website_url\": \"\",\n   
+      \"description\": \"b\",\n    \"dependencies\": [\n        \"bbepis-BepInExPack-5.4.2121\"\n   
+      ]\n}\r\n```"
+  - logLevel: 3
+    internalTime:
+      ticks: 639191953872666223
+    message: '[Pipeline(3 - StageThunderstoreManifest)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639191953872485805
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[WhistlingBasinManifest](assetlink://Assets%2fWhistlingBasin%2fWhistlingBasinManifest.asset)
+      staged ``` Assets/WhistlingBasin/icon.png ``` in ``` ThunderKit/Staging/WhistlingBasin/plugins/WhistlingBasin/icon.png
+      ```'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639191953872254542
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[WhistlingBasinManifest](assetlink://Assets%2fWhistlingBasin%2fWhistlingBasinManifest.asset)
+      staged ``` Assets/WhistlingBasin/CHANGELOG.md ``` in ``` ThunderKit/Staging/WhistlingBasin/plugins/WhistlingBasin/CHANGELOG.md
+      ```'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639191953872008979
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[WhistlingBasinManifest](assetlink://Assets%2fWhistlingBasin%2fWhistlingBasinManifest.asset)
+      staged ``` Assets/WhistlingBasin/README.md ``` in ``` ThunderKit/Staging/WhistlingBasin/plugins/WhistlingBasin/README.md
+      ```'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 639191953871698114
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)
+      Execute Job'
+    context: []
   - logLevel: 0
     internalTime:
       ticks: 639191953827727548

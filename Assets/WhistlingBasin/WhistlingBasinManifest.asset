@@ -55,7 +55,7 @@ MonoBehaviour:
     - {fileID: 102900000, guid: 24aff54892b8aa741a5d9b583719ce31, type: 3}
   - assetBundleName: whistlingbasinscene
     assets:
-    - {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+    - {fileID: 102900000, guid: df5b21c9a51748b4b9ed8d200a27c400, type: 3}
 --- !u!114 &-1282485655929318980
 MonoBehaviour:
   m_ObjectHideFlags: 0

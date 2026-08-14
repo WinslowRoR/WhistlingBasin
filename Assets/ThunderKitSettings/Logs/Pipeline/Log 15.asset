@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9af1c6015733a42be940cc462aa7ed, type: 3}
+  m_Name: Log 15
+  m_EditorClassIdentifier: 
+  pipeline: {fileID: 11400000, guid: f5749a0bb934a6541bbd838a570dfa3f, type: 2}
+  creationDate:
+    ticks: 639191970560205932
+  entries:
+  - logLevel: 3
+    internalTime:
+      ticks: 639191970745334672
+    message: '[Pipeline](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset) Finished
+      execution'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639191970744983844
+    message: '[Pipeline(4 - Copy)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)
+      ``` <ManifestPluginStaging> ``` to ``` <DeploymentFolder> ```
+
+      
+
+      Copied
+      ``` ThunderKit/Staging/WhistlingBasin/plugins/WhistlingBasin ``` to ``` C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin
+      ```'
+    context:
+    - "Copied Files\r\n\r\n 1. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\CHANGELOG.md\r\n\r\n
+      2. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\icon.png\r\n\r\n
+      3. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\manifest.json\r\n\r\n
+      4. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\README.md\r\n\r\n
+      5. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\WhistlingBasin.dll\r\n\r\n
+      6. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\WhistlingBasin.manifest\r\n\r\n
+      7. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\WhistlingBasin.pdb\r\n\r\n
+      8. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\whistlingbasinassets\r\n\r\n
+      9. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\whistlingbasinassets.manifest\r\n\r\n
+      10. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\whistlingbasinscene\r\n\r\n
+      11. C:/Users/gonto/AppData/Roaming/r2modmanPlus-local/RiskOfRain2/profiles/test/BepInEx/plugins/WhistlingBasin\\whistlingbasinscene.manifest"
+  - logLevel: 3
+    internalTime:
+      ticks: 639191970744373585
+    message: '[Pipeline(4 - Copy)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639191970744082960
+    message: '[Pipeline(3 - StageThunderstoreManifest)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[WhistlingBasinManifest](assetlink://Assets%2fWhistlingBasin%2fWhistlingBasinManifest.asset)
+      Creating Thunderstore manifest.json'
+    context:
+    - "Manifest.json\r\n```js\r\n{\n    \"name\": \"WhistlingBasin\",\n    \"author\":
+      \"Winslow\",\n    \"version_number\": \"1.0.0\",\n    \"website_url\": \"\",\n   
+      \"description\": \"b\",\n    \"dependencies\": [\n        \"bbepis-BepInExPack-5.4.2121\"\n   
+      ]\n}\r\n```"
+  - logLevel: 3
+    internalTime:
+      ticks: 639191970743742741
+    message: '[Pipeline(3 - StageThunderstoreManifest)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639191970743500116
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[WhistlingBasinManifest](assetlink://Assets%2fWhistlingBasin%2fWhistlingBasinManifest.asset)
+      staged ``` Assets/WhistlingBasin/icon.png ``` in ``` ThunderKit/Staging/WhistlingBasin/plugins/WhistlingBasin/icon.png
+      ```'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639191970743228452
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[WhistlingBasinManifest](assetlink://Assets%2fWhistlingBasin%2fWhistlingBasinManifest.asset)
+      staged ``` Assets/WhistlingBasin/CHANGELOG.md ``` in ``` ThunderKit/Staging/WhistlingBasin/plugins/WhistlingBasin/CHANGELOG.md
+      ```'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639191970742990213
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[WhistlingBasinManifest](assetlink://Assets%2fWhistlingBasin%2fWhistlingBasinManifest.asset)
+      staged ``` Assets/WhistlingBasin/README.md ``` in ``` ThunderKit/Staging/WhistlingBasin/plugins/WhistlingBasin/README.md
+      ```'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 639191970742630250
+    message: '[Pipeline(2 - StageManifestFiles)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639191970694971711
+    message: '[Pipeline(1 - StageAssetBundles)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[WhistlingBasinManifest](assetlink://Assets%2fWhistlingBasin%2fWhistlingBasinManifest.asset)
+      Creating 2 AssetBundles'
+    context:
+    - 'whistlingbasinassets
+
+      [AirNodes](assetlink://Assets%2fWhistlingBasin%2fAssets%2fInfo%2fAirNodes.asset)
+
+      
+
+      [dccsBlunderInteractables](assetlink://Assets%2fWhistlingBasin%2fAssets%2fInfo%2fdccsBlunderInteractables.asset)
+
+      
+
+      [dccsBlunderMonsters](assetlink://Assets%2fWhistlingBasin%2fAssets%2fInfo%2fdccsBlunderMonsters.asset)
+
+      
+
+      [dccspoolBlunderInteractables](assetlink://Assets%2fWhistlingBasin%2fAssets%2fInfo%2fdccspoolBlunderInteractables.asset)
+
+      
+
+      [dccspoolBlunderMonsters](assetlink://Assets%2fWhistlingBasin%2fAssets%2fInfo%2fdccspoolBlunderMonsters.asset)
+
+      
+
+      [GroundNodes](assetlink://Assets%2fWhistlingBasin%2fAssets%2fInfo%2fGroundNodes.asset)
+
+      
+
+      [whistlingbasin](assetlink://Assets%2fWhistlingBasin%2fAssets%2fInfo%2fwhistlingbasin.asset)
+
+      
+
+      [WBasinTerrain](assetlink://Assets%2fWhistlingBasin%2fAssets%2fMaterials%2fWBasinTerrain.mat)
+
+      
+
+      [Terrain](assetlink://Assets%2fWhistlingBasin%2fAssets%2fMeshes%2fTerrain.blend)
+
+      
+
+      [Terrain](assetlink://Assets%2fWhistlingBasin%2fAssets%2fMeshes%2fTerrain.blend1)
+
+      
+
+      [texFSLichen3](assetlink://Assets%2fWhistlingBasin%2fAssets%2fTextures%2ftexFSLichen3.png)
+
+      
+
+      [WBasinMoss](assetlink://Assets%2fWhistlingBasin%2fAssets%2fTextures%2fWBasinMoss.tga)
+
+      
+
+      [WBasinMoss2](assetlink://Assets%2fWhistlingBasin%2fAssets%2fTextures%2fWBasinMoss2.tga)
+
+      
+
+      [WBasinSandstone](assetlink://Assets%2fWhistlingBasin%2fAssets%2fTextures%2fWBasinSandstone.tga)
+
+      
+
+      [HGTriplanarTerrainBlend](assetlink://Assets%2fStubbed+Shaders%2fRoR2%2fBase%2fShaders%2fDeferred%2fHGTriplanarTerrainBlend.shader)
+
+      
+
+      
+
+'
+    - 'whistlingbasinscene
+
+      [whistlingbasin](assetlink://Assets%2fWhistlingBasin%2fScenes%2fwhistlingbasin.unity)
+
+      
+
+      
+
+'
+  - logLevel: 3
+    internalTime:
+      ticks: 639191970691889208
+    message: '[Pipeline(1 - StageAssetBundles)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639191970691744529
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[WhistlingBasinManifest](assetlink://Assets%2fWhistlingBasin%2fWhistlingBasinManifest.asset)
+      Build Completed: ``` ThunderKit/Libraries/whistlingbasin.dll ```'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639191970679230433
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[WhistlingBasinManifest](assetlink://Assets%2fWhistlingBasin%2fWhistlingBasinManifest.asset)
+      staging ``` ThunderKit/Libraries ``` in ``` ThunderKit/Staging/WhistlingBasin/plugins/WhistlingBasin
+      ```
+
+'
+    context:
+    - "Assembly Files\r\nFrom: ThunderKit/Libraries\\WhistlingBasin.pdb\r\n  To:
+      ThunderKit/Staging/WhistlingBasin/plugins/WhistlingBasin/WhistlingBasin.pdb\r\n\r\nFrom:
+      ThunderKit/Libraries\\whistlingbasin.dll\r\n  To: ThunderKit/Staging/WhistlingBasin/plugins/WhistlingBasin/whistlingbasin.dll\r\n\r\n"
+  - logLevel: 0
+    internalTime:
+      ticks: 639191970570985973
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[WhistlingBasinManifest](assetlink://Assets%2fWhistlingBasin%2fWhistlingBasinManifest.asset)
+      Building : ThunderKit/Libraries/whistlingbasin.dll'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639191970568136991
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[BepInExPack](assetlink://Packages%2fbbepis-bepinexpack%2fBepInExPack.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639191970567640356
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[MiscFixes](assetlink://Packages%2fscore-miscfixes%2fMiscFixes.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639191970567150300
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[SeekersPatcher](assetlink://Packages%2fpseudopulse-seekerspatcher%2fSeekersPatcher.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639191970566672092
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[BepInEx_GUI](assetlink://Packages%2friskofthunder-bepinex_gui%2fBepInEx_GUI.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639191970566184245
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[FixPluginTypesSerialization](assetlink://Packages%2friskofthunder-fixplugintypesserialization%2fFixPluginTypesSerialization.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 639191970565743285
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)[RoR2BepInExPack](assetlink://Packages%2friskofthunder-ror2bepinexpack%2fRoR2BepInExPack.asset)
+      No AssemblyDefinitions found, skipping'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 639191970562470175
+    message: '[Pipeline(0 - StageAssemblies)](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 639191970562424985
+    message: '[Pipeline](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset) Clearing
+      PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 639191970562294409
+    message: '[Pipeline](assetlink://Assets%2fWhistlingBasin%2fPipeline.asset) Execute
+      Pipeline'
+    context: []
