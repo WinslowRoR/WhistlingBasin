@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3561774400
+CRC: 2831382398
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7a6a74d1810d575aa0878ac78397514a
+    Hash: dc0598e5c69815ce3bc1a68474230196
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 306fc087e5bd87d52c28568e734b3a64
+    Hash: e529c4eb9721f2d6a9f765180f5ff7d5
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,6 +29,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 74
   Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
@@ -36,13 +38,25 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 35331000, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 3b1b2d6a2444b8a4e9d5634caea6efe3, type: 3}
+- Class: 114
+  Script: {fileID: 495100722, guid: 45feadaaa90b2d2217207fb8b533753e, type: 3}
+- Class: 114
+  Script: {fileID: 2099981080, guid: 45feadaaa90b2d2217207fb8b533753e, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: c1cb7e9e120078f43bce4f0b1be547a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eaa4995e8ee85a943b9aef0e5062084c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f775d75aa6d9aeb4c9fd56f69fbedf59, type: 3}
 - Class: 114
   Script: {fileID: 2014855634, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -104859921, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -703206264, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -255427816, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
   Script: {fileID: -609359282, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
 - Class: 114
@@ -64,12 +78,40 @@ ClassTypes:
 - Class: 199
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
+- AssemblyName: AK.Wwise.Unity.API.WwiseTypes
+  ClassName: AK.Wwise.Bank
+- AssemblyName: AK.Wwise.Unity.API.WwiseTypes
+  ClassName: AK.Wwise.State
+- AssemblyName: R2API.Addressables
+  ClassName: R2API.AddressReferencedAssets.AddressReferencedExpansionDef
+- AssemblyName: R2API.Addressables
+  ClassName: R2API.AddressReferencedAssets.AddressReferencedSpawnCard
+- AssemblyName: R2API.Addressables
+  ClassName: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDCCSPool/Category
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDCCSPool/ConditionalPoolEntry
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDCCSPool/PoolEntry
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDirectorCard
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDirectorCardCategorySelection/Category
 - AssemblyName: RoR2
   ClassName: RoR2.AssetReferenceScene
 - AssemblyName: RoR2
-  ClassName: RoR2.DccsPool/Category
+  ClassName: RoR2.Navigation.NodeGraph/Link
 - AssemblyName: RoR2
-  ClassName: RoR2.DccsPool/PoolEntry
+  ClassName: RoR2.Navigation.NodeGraph/LinkListIndex
+- AssemblyName: RoR2
+  ClassName: RoR2.Navigation.NodeGraph/Node
+- AssemblyName: RoR2
+  ClassName: RoR2.Navigation.NodeGraph/NodeIndex
+- AssemblyName: RoR2
+  ClassName: SerializableBitArray
 - AssemblyName: RoR2
   ClassName: Wave
 - AssemblyName: Unity.Addressables
@@ -93,123 +135,164 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.CoreModule
   ClassName: UnityEngine.Events.UnityEvent`1[RoR2.CharacterBody]
 Assets:
-- Assets/WhistlingBasin/Assets/Textures/AncientBrickTransparent_Diffuse.tga
-- Assets/WhistlingBasin/Assets/Materials/WBasinSmoothStoneDarker.mat
-- Assets/WhistlingBasin/Assets/Meshes/Platform1.fbx
 - Assets/WhistlingBasin/Assets/Meshes/Props.fbx
-- Assets/WhistlingBasin/Assets/Textures/spmWBasinBonsai1V1_Atlas.png
-- Assets/WhistlingBasin/Assets/Prefabs/spmBbFern2_LOD0.prefab
 - Assets/WhistlingBasin/Assets/Prefabs/RockMedium_01.prefab
-- Assets/WhistlingBasin/Assets/Textures/PatternedConcrete_Normal.png
-- Assets/WhistlingBasin/Assets/Textures/spmBonsai1V1_Atlas.png
 - Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGOpaqueCloudRemap.shader
 - Assets/WhistlingBasin/Assets/Textures/WBasinMossDense.tga
+- Assets/Wwise/ScriptableObjects/State/910D1768-3E0B-452E-9608-A71792FFA9BA.asset
 - Assets/WhistlingBasin/Assets/Textures/AncientBrick_Splat.png
 - Assets/WhistlingBasin/Assets/Prefabs/Grass.prefab
-- Assets/WhistlingBasin/Assets/Textures/PatternedConcrete_Diffuse.png
 - Assets/WhistlingBasin/Assets/Textures/texLVFernADiffuse.png
-- Assets/WhistlingBasin/Assets/Info/dccspoolBlunderInteractables.asset
-- Assets/WhistlingBasin/Assets/SurfaceDefs/sdIce.asset
-- Assets/WhistlingBasin/Assets/Info/dccsBlunderInteractables.asset
-- Assets/WhistlingBasin/Assets/Materials/WBasinGrassSparse.mat
 - Packages/com.unity.postprocessing/PostProcessing/Gizmos/PostProcessLayer.png
-- Assets/WhistlingBasin/Assets/Meshes/House.fbx
-- Assets/WhistlingBasin/Assets/Meshes/spmBbFern2(Clone).fbx
-- Assets/WhistlingBasin/Assets/Textures/texSmokePuffSmallNormal.png
-- Assets/WhistlingBasin/Assets/Info/AirNodes.asset
-- Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGDistortion.shader
 - Assets/WhistlingBasin/Assets/Materials/WBasinBricks_Bright.mat
-- Assets/WhistlingBasin/Assets/Prefabs/Platform1.prefab
+- Assets/WhistlingBasin/Assets/Textures/texCloudOrganicNormal.png
+- Assets/Wwise/ScriptableObjects/StateGroup/939BAE63-E34C-4471-81B3-859097889DB0.asset
 - Assets/WhistlingBasin/Assets/Prefabs/Pebbles2 Variant.prefab
-- Assets/WhistlingBasin/Assets/Info/dccspoolBlunderMonsters.asset
-- Assets/WhistlingBasin/Assets/Meshes/Milhouse.blend
 - Assets/WhistlingBasin/Assets/Materials/matOpaqueWaterFoam.mat
-- Assets/WhistlingBasin/Assets/Textures/WBasinStoneDarker.tga
-- Assets/WhistlingBasin/Assets/Materials/WBasinGrass.mat
-- Assets/WhistlingBasin/Assets/Materials/WBasinLeaves_1.mat
 - Assets/WhistlingBasin/Assets/Meshes/Terrain.blend
-- Assets/WhistlingBasin/Assets/Textures/texNormalInvertConeFade.png
-- Assets/WhistlingBasin/Assets/Materials/WBasinPatternedConcrete.mat
-- Assets/Stubbed Shaders/RoR2/Base/Shaders/Speedtree Override/SpeedTreeCustom.shader
 - Assets/WhistlingBasin/Assets/Meshes/Pebbles2.fbx
-- Assets/WhistlingBasin/Assets/SurfaceDefs/sdStone.asset
-- Assets/WhistlingBasin/Assets/Textures/AncientBrick_Normal.png
-- Assets/WhistlingBasin/Assets/Textures/texLVFernCNormal.png
-- Assets/WhistlingBasin/Assets/Prefabs/House1_Broken2.prefab
-- Assets/WhistlingBasin/Assets/Materials/WBasinRocks1.mat
 - Assets/WhistlingBasin/Assets/Meshes/Pebbles1.fbx
-- Assets/WhistlingBasin/Assets/Textures/WB_Brick_Atlas_Normal.png
 - Assets/WhistlingBasin/Assets/Materials/WBasinBricks2.mat
 - Assets/WhistlingBasin/Assets/Meshes/Pillar.fbx
 - Assets/WhistlingBasin/Assets/Textures/texTLGrassSparce.png
-- Assets/WhistlingBasin/Assets/Meshes/spmBbBigFern1_LOD0.fbx
 - Assets/WhistlingBasin/Assets/Textures/WBasinSandstone.tga
-- Assets/WhistlingBasin/Assets/Meshes/GeyserBasis.fbx
+- Assets/WhistlingBasin/Assets/Materials/GroundFog.mat
 - Assets/WhistlingBasin/Assets/Materials/matInverseDistortion.mat
 - Assets/WhistlingBasin/Assets/Meshes/StatueMen.fbx
 - Assets/WhistlingBasin/Assets/Prefabs/Statue2.prefab
 - Assets/WhistlingBasin/Assets/Prefabs/RockSmall_03.prefab
-- Assets/WhistlingBasin/Assets/Prefabs/Pillar1.prefab
-- Assets/WhistlingBasin/Assets/Prefabs/ProviShrine.prefab
-- Assets/WhistlingBasin/Assets/Textures/texLVFernBDiffuse.png
-- Assets/WhistlingBasin/Assets/SurfaceDefs/sdDirt.asset
+- Assets/Wwise/ScriptableObjects/State/43B1302B-4D86-4518-B39D-2DBF7AABBA94.asset
 - Assets/WhistlingBasin/Assets/Prefabs/Vase1Broken.prefab
-- Assets/WhistlingBasin/Assets/SurfaceDefs/sdMetal.asset
-- Assets/WhistlingBasin/Assets/Textures/WB_Brick_Atlas_Splat.png
-- Assets/WhistlingBasin/Assets/Textures/texFSLichen3.png
 - Assets/WhistlingBasin/Assets/Textures/WBasinSkybox.png
-- Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGStandard.shader
+- Assets/WhistlingBasin/Assets/Music/WBasin_Teleporter.wav
+- Assets/WhistlingBasin/Assets/Textures/texRampWhiteAlphaOnly.png
 - Assets/WhistlingBasin/Assets/Textures/WBasinMoss.tga
-- Assets/WhistlingBasin/Assets/Materials/WBasinBricks.mat
 - Assets/WhistlingBasin/Assets/Prefabs/Statue3.prefab
 - Assets/WhistlingBasin/Assets/Textures/Terrain_Rock.png
 - Assets/WhistlingBasin/Assets/Prefabs/Pillar 1.prefab
 - Assets/WhistlingBasin/Assets/Prefabs/GeyserFixed_Position.prefab
 - Assets/WhistlingBasin/Assets/Materials/WBasinFernA.mat
-- Assets/WhistlingBasin/Assets/Materials/WBasinFernB.mat
-- Assets/WhistlingBasin/Assets/Prefabs/Pebbles1 Variant.prefab
 - Assets/WhistlingBasin/Assets/Prefabs/House1_Broken.prefab
+- Assets/Wwise/ScriptableObjects/Soundbank/27F6773A-FDAF-4948-B402-F6703C997999.asset
+- Assets/WhistlingBasin/Assets/Prefabs/ProviShrine 1.prefab
 - Assets/WhistlingBasin/Assets/Meshes/Grass.fbx
-- Assets/WhistlingBasin/Assets/Prefabs/Statue1.prefab
+- Assets/WhistlingBasin/Assets/Textures/WBasinStone.tga
 - Assets/WhistlingBasin/Assets/Materials/WBasinBrick.mat
 - Assets/WhistlingBasin/Assets/Materials/matOpaqueDustSpeckledUnlit.mat
 - Assets/WhistlingBasin/Assets/Textures/WBasinMossDarker.tga
-- Assets/WhistlingBasin/Assets/Materials/WBasinSmoothstone_2.mat
-- Assets/WhistlingBasin/Assets/Textures/texTLGrass.png
+- Assets/WhistlingBasin/Assets/Textures/WBasinMoss2.tga
+- Assets/Wwise/ScriptableObjects/State/2513299A-2F92-494F-95E0-D2B98EEF17DB.asset
 - Assets/WhistlingBasin/Assets/Meshes/ProviShrine.blend
 - Assets/WhistlingBasin/Assets/Prefabs/FlowerPot.prefab
-- Assets/WhistlingBasin/Assets/Textures/WBasinStone.tga
-- Assets/WhistlingBasin/Assets/Textures/WBasinMoss2.tga
-- Assets/WhistlingBasin/Assets/Prefabs/RockSmall_01.prefab
-- Assets/WhistlingBasin/Assets/Info/GroundNodes.asset
+- Assets/WhistlingBasin/Assets/Info/Interactables/dccs_WBasin_DLC1_A.asset
+- Assets/WhistlingBasin/Assets/Info/Monsters/M_dp_WBasin_A.asset
 - Assets/WhistlingBasin/Assets/Materials/WBasinTerrain.mat
 - Assets/WhistlingBasin/Assets/Prefabs/House1.prefab
 - Assets/WhistlingBasin/Assets/Prefabs/Vase1.prefab
-- Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGTriplanarTerrainBlend.shader
 - Assets/WhistlingBasin/Assets/Meshes/Props1.fbx
-- Assets/WhistlingBasin/Assets/Info/whistlingbasin.asset
-- Assets/WhistlingBasin/Assets/Textures/AncientBrick_Diffuse.png
-- Assets/WhistlingBasin/Assets/Meshes/Rocks.fbx
+- Assets/WhistlingBasin/Assets/Info/Interactables/dccs_WBasin_DLC2.asset
 - Assets/WhistlingBasin/Assets/Prefabs/Pebbles2.prefab
+- Assets/WhistlingBasin/Assets/Info/Monsters/dccs_WBasin_DLC_3.asset
 - Assets/WhistlingBasin/Assets/Materials/WBasinFloor.mat
+- Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGCloudRemap.shader
 - Assets/WhistlingBasin/Assets/Materials/WBasinSkybox.mat
 - Assets/WhistlingBasin/Assets/Prefabs/RockSmall_02.prefab
+- Assets/WhistlingBasin/Assets/Textures/texCloudWaterFoam2.png
 - Assets/WhistlingBasin/Assets/Textures/WBasinStoneDark.tga
 - Assets/WhistlingBasin/Assets/SurfaceDefs/sdWood.asset
 - Assets/WhistlingBasin/Assets/Prefabs/RockMedium_04.prefab
-- Assets/WhistlingBasin/Assets/Textures/texSmokePuffSpeckledDisplacement.png
-- Assets/WhistlingBasin/Assets/Prefabs/Pebbles1.prefab
-- Assets/WhistlingBasin/Assets/Prefabs/RockMedium_03.prefab
+- Assets/WhistlingBasin/Assets/Textures/texCloudDifferenceBW1.png
+- Assets/WhistlingBasin/Assets/Info/Interactables/I_dp_WBsain.asset
+- Assets/Wwise/ScriptableObjects/State/3AF4CF04-A574-4238-AF20-72193FE0D636.asset
 - Assets/WhistlingBasin/Assets/Materials/WBasinSmoothStone.mat
 - Assets/WhistlingBasin/Assets/Prefabs/RockLarge_01.prefab
 - Assets/WhistlingBasin/Assets/SurfaceDefs/sdWater.asset
 - Assets/WhistlingBasin/Assets/Prefabs/Pillar.prefab
-- Assets/WhistlingBasin/Assets/Prefabs/House1_BrokenTemplate.prefab
 - Assets/WhistlingBasin/Assets/Meshes/basinTerrainNew.blend
 - Assets/WhistlingBasin/Assets/Textures/texLVFernB_Normal.png
+- Assets/Wwise/ScriptableObjects/StateGroup/A9B73ACC-8E3A-462A-B8EA-B5022DCA0D63.asset
 - Assets/WhistlingBasin/Assets/Prefabs/RockSmall_04.prefab
 - Assets/WhistlingBasin/Assets/Prefabs/RockMedium_02.prefab
 - Assets/WhistlingBasin/Assets/PostProcess.asset
+- Assets/WhistlingBasin/Assets/Materials/WBasinSmoothStoneDarker.mat
+- Assets/WhistlingBasin/Assets/Meshes/Platform1.fbx
+- Assets/WhistlingBasin/Assets/Info/Monsters/dccs_WBasin_Vanilla_A.asset
+- Assets/WhistlingBasin/Assets/Info/Monsters/M_dp_WBasin.asset
+- Assets/WhistlingBasin/Assets/Textures/spmWBasinBonsai1V1_Atlas.png
+- Assets/WhistlingBasin/Assets/Prefabs/spmBbFern2_LOD0.prefab
+- Assets/WhistlingBasin/Assets/Textures/texCloudIce.png
+- Assets/WhistlingBasin/Assets/Textures/PatternedConcrete_Normal.png
+- Assets/WhistlingBasin/Assets/Textures/spmBonsai1V1_Atlas.png
+- Assets/WhistlingBasin/Assets/Textures/PatternedConcrete_Diffuse.png
+- Assets/WhistlingBasin/Assets/SurfaceDefs/sdIce.asset
+- Assets/WhistlingBasin/Assets/Materials/WBasinGrassSparse.mat
+- Assets/WhistlingBasin/Assets/Music/WBasin_Teleporter_End.wav
+- Assets/WhistlingBasin/Assets/Meshes/House.fbx
+- Assets/WhistlingBasin/Assets/Meshes/spmBbFern2(Clone).fbx
+- Assets/WhistlingBasin/Assets/Info/Interactables/dccs_WBasin_DLC2_A.asset
+- Assets/WhistlingBasin/Assets/Textures/texSmokePuffSmallNormal.png
+- Assets/WhistlingBasin/Assets/Info/AirNodes.asset
+- Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGDistortion.shader
+- Assets/WhistlingBasin/Assets/Prefabs/Platform1.prefab
+- Assets/WhistlingBasin/Assets/Info/Monsters/dccs_WBasin_DLC3_A.asset
+- Assets/WhistlingBasin/Assets/Meshes/Milhouse.blend
+- Assets/WhistlingBasin/Assets/Textures/WBasinStoneDarker.tga
+- Assets/WhistlingBasin/Assets/Info/Interactables/dccs_WBasin_DLC3_A.asset
+- Assets/WhistlingBasin/Assets/Materials/WBasinGrass.mat
+- Assets/WhistlingBasin/Assets/Materials/WBasinLeaves_1.mat
+- Assets/WhistlingBasin/Assets/Info/Interactables/dccs_WBasin_DLC1.asset
+- Assets/WhistlingBasin/Assets/Textures/texNormalInvertConeFade.png
+- Assets/WhistlingBasin/Assets/Materials/WBasinPatternedConcrete.mat
+- Assets/Stubbed Shaders/RoR2/Base/Shaders/Speedtree Override/SpeedTreeCustom.shader
+- Assets/WhistlingBasin/Assets/SurfaceDefs/sdStone.asset
+- Assets/WhistlingBasin/Assets/Textures/AncientBrick_Normal.png
+- Assets/WhistlingBasin/Assets/Textures/texLVFernCNormal.png
+- Assets/WhistlingBasin/Assets/Prefabs/House1_Broken2.prefab
+- Assets/WhistlingBasin/Assets/Materials/WBasinRocks1.mat
+- Assets/WhistlingBasin/Assets/Info/Monsters/dccs_WBasin_DLC_1.asset
+- Assets/WhistlingBasin/Assets/Textures/WB_Brick_Atlas_Normal.png
+- Assets/WhistlingBasin/Assets/Info/Interactables/dccs_WBasin_DLC3.asset
+- Assets/WhistlingBasin/Assets/Meshes/spmBbBigFern1_LOD0.fbx
+- Assets/WhistlingBasin/Assets/Info/Monsters/dccs_WBasin_Vanilla.asset
+- Assets/WhistlingBasin/Assets/Meshes/GeyserBasis.fbx
+- Assets/WhistlingBasin/Assets/Prefabs/Pillar1.prefab
+- Assets/WhistlingBasin/Assets/Textures/texCloudDifferenceBW2.png
+- Assets/Wwise/ScriptableObjects/StateGroup/3E9AAA75-0644-46F1-B645-54E0924C1C03.asset
+- Assets/WhistlingBasin/Assets/Textures/texCloudOrganic3.png
+- Assets/WhistlingBasin/Assets/Prefabs/ProviShrine.prefab
+- Assets/WhistlingBasin/Assets/Textures/texLVFernBDiffuse.png
+- Assets/WhistlingBasin/Assets/SurfaceDefs/sdDirt.asset
+- Assets/WhistlingBasin/Assets/Info/Music/BossTrack.asset
+- Assets/WhistlingBasin/Assets/SurfaceDefs/sdMetal.asset
+- Assets/Wwise/ScriptableObjects/State/45EF9025-CAF7-486C-B814-EC5BB77F9C47.asset
+- Assets/WhistlingBasin/Assets/Textures/WB_Brick_Atlas_Splat.png
+- Assets/WhistlingBasin/Assets/Textures/texFSLichen3.png
+- Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGStandard.shader
+- Assets/WhistlingBasin/Assets/Materials/WBasinBricks.mat
+- Assets/WhistlingBasin/Assets/Materials/WBasinFernB.mat
+- Assets/WhistlingBasin/Assets/Prefabs/Pebbles1 Variant.prefab
+- Assets/WhistlingBasin/Assets/Music/WBasin_Stage.wav
+- Assets/WhistlingBasin/Assets/Prefabs/Statue1.prefab
+- Assets/WhistlingBasin/Assets/Textures/DistTex.png
+- Assets/WhistlingBasin/Assets/Materials/WBasinSmoothstone_2.mat
+- Assets/WhistlingBasin/Assets/Textures/texTLGrass.png
+- Assets/WhistlingBasin/Assets/Info/Interactables/dccs_WBasin_Vanilla_A.asset
+- Assets/WhistlingBasin/Assets/Textures/texCloudOrganic2.png
+- Assets/WhistlingBasin/Assets/Info/Monsters/dccs_WBasin_DLC1_A.asset
+- Assets/WhistlingBasin/Assets/Info/GroundNodes.asset
+- Assets/WhistlingBasin/Assets/Prefabs/RockSmall_01.prefab
+- Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGTriplanarTerrainBlend.shader
+- Assets/WhistlingBasin/Assets/Info/whistlingbasin.asset
+- Assets/WhistlingBasin/Assets/Textures/AncientBrick_Diffuse.png
+- Assets/WhistlingBasin/Assets/Meshes/Rocks.fbx
+- Assets/WhistlingBasin/Assets/Info/Interactables/dccs_WBasin_Vanilla.asset
+- Assets/WhistlingBasin/Assets/Info/Music/StageTrack.asset
+- Assets/WhistlingBasin/Assets/Textures/texSmokePuffSpeckledDisplacement.png
+- Assets/WhistlingBasin/Assets/Prefabs/Pebbles1.prefab
+- Assets/WhistlingBasin/Assets/Prefabs/RockMedium_03.prefab
+- Assets/WhistlingBasin/Assets/Prefabs/House1_BrokenTemplate.prefab
+- Assets/WhistlingBasin/Assets/Materials/New Material.mat
 - Assets/WhistlingBasin/Assets/Prefabs/RockLarge_02.prefab
-- Assets/WhistlingBasin/Assets/Info/dccsBlunderMonsters.asset
+- Assets/WhistlingBasin/Assets/Textures/AncientBrickTransparent_Diffuse.tga
+- Assets/WhistlingBasin/Assets/Info/Interactables/I_dp_WBasin_A.asset
 Dependencies: []

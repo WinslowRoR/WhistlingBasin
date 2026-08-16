@@ -21,9 +21,9 @@ namespace whistlingbasin
         internal const string ScenesAssetBundleFileName = "whistlingbasinscene";
         internal const string AssetsAssetBundleFileName = "whistlingbasinassets";
 
-        internal const string MusicSoundBankFileName = "WhistlingBasinMusic.bnk";
-        internal const string InitSoundBankFileName = "WhistlingBasinInit.bnk";
-        internal const string SoundsSoundBankFileName = "WhistlingBasinSounds.bnk";
+        internal const string MusicSoundBankFileName = "WBasin_Music.bnk";
+        internal const string InitSoundBankFileName = "WBasin_Init.bnk";
+        // internal const string SoundsSoundBankFileName = "WhistlingBasinSounds.bnk";
 
         private static AssetBundle scenesAssetBundle;
         private static AssetBundle contentAssetBundle;
@@ -123,7 +123,7 @@ namespace whistlingbasin
 
             akResult = AkSoundEngine.LoadBank(InitSoundBankFileName, out var _);
 
-            akResult = AkSoundEngine.LoadBank(SoundsSoundBankFileName, out var _);
+            // akResult = AkSoundEngine.LoadBank(SoundsSoundBankFileName, out var _);
             
             akResult = AkSoundEngine.LoadBank(MusicSoundBankFileName, out var _);
             

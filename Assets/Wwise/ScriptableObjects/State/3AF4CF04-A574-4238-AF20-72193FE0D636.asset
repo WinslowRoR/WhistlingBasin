@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f775d75aa6d9aeb4c9fd56f69fbedf59, type: 3}
+  m_Name: 3AF4CF04-A574-4238-AF20-72193FE0D636
+  m_EditorClassIdentifier: 
+  objectName: Bossfight
+  id: 580146960
+  guid: 3AF4CF04-A574-4238-AF20-72193FE0D636
+  WwiseStateGroupReference: {fileID: 11400000, guid: 6b5abc4a5054d4b44a762e11bf34af93, type: 2}

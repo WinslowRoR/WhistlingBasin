@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{320857FC-93C1-487F-B2F9-F053B4F345B1}" SchemaVersion="119">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{320857FC-93C1-487F-B2F9-F053B4F345B1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{320857FC-93C1-487F-B2F9-F053B4F345B1}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="playerHealth" ID="{66D98602-6D8F-4491-9092-BCF35F09E767}">
+					<PropertyList>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="teleporterPlayerSttaus" ID="{9B39F29B-260E-4D2B-A531-78AB8CD0A2AF}"/>
+				<GameParameter Name="Volume_Master" ID="{E62A48D0-CD80-4871-9E19-22F6CA5308E0}"/>
+				<GameParameter Name="Volume_MSX" ID="{D7A7B978-7D7C-45CB-8541-0F1C4AD776A2}"/>
+				<GameParameter Name="Volume_SFX" ID="{843EE408-D7BD-4E7A-8234-977B271DD5E9}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

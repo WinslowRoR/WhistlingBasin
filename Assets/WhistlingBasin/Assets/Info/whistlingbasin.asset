@@ -42,9 +42,9 @@ MonoBehaviour:
     m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
-  mainTrack: {fileID: 0}
-  bossTrack: {fileID: 0}
-  environmentColor: {r: 0.6792453, g: 0.6321331, b: 0.3812745, a: 0}
+  mainTrack: {fileID: 11400000, guid: 138a87cd7613ff543a1fcb96957965c4, type: 2}
+  bossTrack: {fileID: 11400000, guid: 87d3ce769c92c894299f700ea739b066, type: 2}
+  environmentColor: {r: 0.9245283, g: 0.8522278, b: 0.46662515, a: 0}
   hasSafeStart: 0
   suppressPlayerEntry: 0
   suppressNpcEntry: 0
